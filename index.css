@@ -1,0 +1,256 @@
+.background{
+    background-color: #def2f1;
+}
+.main{
+    background-image: url(https://images.unsplash.com/photo-1651307098281-b357047cbcff?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJhdmVsJTIwdmxvZ3xlbnwwfHwwfHx8MA%3D%3D);
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.mainh{
+    align-self: flex-start;
+    text-align: left;
+    font-size: 60px;
+    color: orangered;
+    margin-top: -10px;
+}
+.mains{
+    font-size: 35px;
+    color: black;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+#navh{
+    align-items: flex-start;
+    width: 50%;
+    position: static;
+}
+button{
+    background-color: green;
+    color: white;
+}
+button:hover{
+    background-color: orange;
+    color: black;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.na{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.na:hover{
+    color: orangered;
+    font-size: 21px;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: orangered;
+    font-weight: 700;
+}
+.packdiv{
+    margin-top: -20px;
+}
+.contain{
+    width: 100%;
+    height: auto;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.item{
+    width: 290px;
+    height: 550px;
+    border: 3px solid;
+    border-radius: 20px;
+    border-color: black;
+    border-style: ridge;
+    contain: content;
+    border-collapse: separate;
+    transition-duration: 200ms;
+}
+.item:hover{
+    width: 310px;
+    height: 570px;
+    text-decoration: wavy;
+}
+.pbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bround{
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+}
+
+.north{
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    border-style: ridge;
+    border-color: black;
+    contain: content;
+    border-collapse: separate;
+    position: relative;
+}
+.nimage{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5 ease;
+    backface-visibility: hidden;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color:aliceblue;
+}
+.north:hover .middle{
+    opacity: 0.87;
+
+}
+.text{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.premium{
+    width: 290px;
+    height: 250px;
+    border: 2px solid;
+    border-style: ridge;
+    contain: content;
+    border-collapse: separate;
+}
+
+.prm{
+    width: 100%;
+    height: 200px;
+
+}
+.review{
+    width: 320px;
+    height: 500px;
+    border: 3px solid;
+    border-radius: 20px;
+    border-style: ridge;
+    contain: content;
+    border-collapse: separate;
+    transition-duration: 200ms;
+    margin-bottom: 10px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    flex-wrap: wrap;
+    background-color: blueviolet;
+
+}
+.about{
+    width: 25%;
+    height: 300px;
+    contain: content;
+    border-collapse: separate;
+}
+li{
+    list-style: none;
+}
+.list{
+    text-align: justify;
+}
+.about a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.list1:hover{
+    color: orangered;
+    margin-top: 5px;
+}
+.icons{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.icon{
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+}
+.icon:hover{
+    color: white;
+    background-color: orange;
+    border-radius: 25%;
+    padding-left: 7px;
+    padding-right: 7px;
+    animation: shake 0.8s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: rotate(10deg);}
+    25% { transform: rotate(10deg);}
+    50% { transform: rotate(-10deg);}
+    75% { transform: rotate(-10deg);}
+    100% { transform: rotate(10deg);}
+}
+h3{
+    font-weight: 700;
+}
+h4{
+    color: orange;
+    margin-left: 30px;
+}
+#h4{
+    text-align: center;
+}
